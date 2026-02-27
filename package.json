@@ -1,5 +1,5 @@
 {
-  "name": "certforge",
+  "name": "pki-infrastructure",
   "version": "1.0.0",
   "description": "Complete PKI implementation from scratch in Node.js — Root CA, Intermediate CA, signing certificates, and document signing",
   "main": "dist/index.js",
