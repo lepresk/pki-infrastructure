@@ -1,0 +1,14 @@
+node_modules/
+dist/
+
+# Never commit certificates or private keys
+pki/
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Environment variables
+.env
+.env.*
+!.env.example
