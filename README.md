@@ -1,10 +1,12 @@
-# certforge
+# pki-infrastructure
 
 ![Build a Complete PKI from Scratch in Node.js](https://lepresk.com/storage/posts/featured-images/01KHNYFVHQ74AK5HPTT59EK614.webp)
 
 Node.js implementation of a three-tier Public Key Infrastructure — Root CA, Intermediate CA, and leaf signing certificates — using `node-forge` and the built-in `crypto` module.
 
 This is the companion code for the article: [Build a Complete PKI from Scratch in Node.js](https://lepresk.com/blog/build-a-complete-pki-from-scratch-in-nodejs)
+
+Repository: [github.com/lepresk/pki-infrastructure](https://github.com/lepresk/pki-infrastructure)
 
 ## Requirements
 
@@ -14,6 +16,8 @@ This is the companion code for the article: [Build a Complete PKI from Scratch i
 ## Getting started
 
 ```bash
+git clone https://github.com/lepresk/pki-infrastructure.git
+cd pki-infrastructure
 pnpm install
 pnpm dev
 ```
